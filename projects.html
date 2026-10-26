@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Projects | Sara Paton - Front-End Developer</title>
+    <meta
+      name="description"
+      content="Explore front-end development projects by Sara Paton, featuring HTML, CSS, JavaScript, React, WordPress, Shopify, and eCommerce website development."
+    />
+
+    <!-- Social Media Link Preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Projects | Sara Paton" />
+    <meta
+      property="og:description"
+      content="Explore Sara Paton's front-end development projects, including real websites, class projects, and personal builds."
+    />
+    <meta property="og:url" content="https://sarapaton.com/projects.html" />
+    <meta
+      property="og:image"
+      content="https://sarapaton.com/images/projects-preview.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Sara Paton Projects portfolio cover featuring a forest and creek"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="projects.css" />
+  </head>
+
+  <body>
+    <!-- Header and hero -->
+    <section class="projects-hero" id="projects-top">
+      <header class="site-header">
+        <a href="index.html" class="brand" aria-label="Sara Paton home">
+          <span class="brand-mark">SP</span>
+          <span class="brand-name">SARA PATON</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="projects.html" class="active" aria-current="page"
+            >Projects</a
+          >
+          <a href="about.html">About</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+      </header>
+
+      <div class="projects-hero-content">
+        <div class="section-heading-small">
+          <span>MY WORK</span>
+          <span class="heading-line" aria-hidden="true"></span>
+        </div>
+
+        <h1>PROJECTS</h1>
+
+        <p>
+          A collection of real projects, class projects and personal builds.
+        </p>
+      </div>
+    </section>
+
+    <main>
+      <!-- Projects -->
+      <section
+        class="projects-page-section"
+        id="projects"
+        aria-label="Portfolio projects"
+      >
+        <!-- Penny's Heavy Duty & Auto -->
+        <article
+          class="project-row project-layout-left reveal-from-left"
+          id="pennys-project"
+        >
+          <div class="project-image">
+            <img
+              src="./images/pennys-project-cover.webp"
+              alt="Penny's Heavy Duty and Auto logo on a black background"
+              width="1600"
+              height="900"
+            />
+          </div>
+
+          <div class="project-info">
+            <div class="project-number">
+              <span>01</span>
+              <span class="project-number-line" aria-hidden="true"></span>
+            </div>
+
+            <h2>PENNY'S HEAVY DUTY &amp; AUTO</h2>
+            <p class="project-type">Small business website</p>
+
+            <p class="project-description">
+              A custom, responsive website for a local heavy-duty mechanic shop,
+              designed to showcase services and make it easy for customers to
+              get in touch.
+            </p>
+
+            <div class="project-tech-list" aria-label="Technologies used">
+              <span class="project-tech">HTML</span>
+              <span class="project-tech">CSS</span>
+              <span class="project-tech">JavaScript</span>
+              <span class="project-tech">Responsive Design</span>
+            </div>
+
+            <div class="project-actions">
+              <a
+                href="https://pennyshdauto.ca/"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                VIEW LIVE SITE →
+              </a>
+
+              <a href="pennys-project.html" class="btn btn-secondary">
+                VIEW PROJECT DETAILS →
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Up North & Cozy -->
+        <article
+          class="project-row project-layout-right reveal-from-right"
+          id="up-north-cozy-project"
+        >
+          <div class="project-image">
+            <img
+              src="./images/up-north-and-cozy-project-cover.webp"
+              alt="Up North and Cozy logo on a forest-green background"
+              width="1600"
+              height="900"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="project-info">
+            <div class="project-number">
+              <span>02</span>
+              <span class="project-number-line" aria-hidden="true"></span>
+            </div>
+
+            <h2>UP NORTH &amp; COZY</h2>
+            <p class="project-type">Shopify e-commerce store</p>
+
+            <p class="project-description">
+              A Shopify storefront for my handmade brand, customized with Liquid
+              and theme styling to create a cohesive shopping experience.
+            </p>
+
+            <div class="project-tech-list" aria-label="Technologies used">
+              <span class="project-tech">Shopify</span>
+              <span class="project-tech">Theme Customization</span>
+              <span class="project-tech">Liquid</span>
+              <span class="project-tech">E-commerce</span>
+            </div>
+
+            <div class="project-actions">
+              <button
+                type="button"
+                class="btn btn-primary"
+                id="open-shopify-modal"
+                aria-haspopup="dialog"
+                aria-controls="shopify-modal"
+              >
+                VIEW LIVE SITE →
+              </button>
+
+              <a href="up-north-cozy-project.html" class="btn btn-secondary">
+                VIEW PROJECT DETAILS →
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Polar+DB -->
+        <article
+          class="project-row project-layout-left reveal-from-left"
+          id="polar-db-project"
+        >
+          <div class="project-image">
+            <img
+              src="./images/polar-db-project-cover.webp"
+              alt="Polar+DB logo on a dark green background"
+              width="1600"
+              height="900"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="project-info">
+            <div class="project-number">
+              <span>03</span>
+              <span class="project-number-line" aria-hidden="true"></span>
+            </div>
+
+            <h2>POLAR+DB</h2>
+            <p class="project-type">React group project</p>
+
+            <p class="project-description">
+              A React movie discovery app featuring API-powered content, movie
+              details and a personalized watchlist saved with localStorage.
+            </p>
+
+            <div class="project-tech-list" aria-label="Technologies used">
+              <span class="project-tech">React</span>
+              <span class="project-tech">API</span>
+              <span class="project-tech">React Router</span>
+              <span class="project-tech">Sass</span>
+              <span class="project-tech">localStorage</span>
+            </div>
+
+            <div class="project-actions">
+              <a
+                href="https://sarapaton.com/polar-db/"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                VIEW LIVE SITE →
+              </a>
+
+              <a href="polar-db-project.html" class="btn btn-secondary">
+                VIEW PROJECT DETAILS →
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tic-Tac-Toe -->
+        <article
+          class="project-row project-layout-right reveal-from-right"
+          id="tic-tac-toe-project"
+        >
+          <div class="project-image">
+            <img
+              src="./images/tic-tac-toe-project-cover.webp"
+              alt="Neon blue X and pink O on a black background"
+              width="1600"
+              height="900"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="project-info">
+            <div class="project-number">
+              <span>04</span>
+              <span class="project-number-line" aria-hidden="true"></span>
+            </div>
+
+            <h2>TIC-TAC-TOE</h2>
+            <p class="project-type">JavaScript game</p>
+
+            <p class="project-description">
+              An interactive, responsive Tic-Tac-Toe game built with HTML, CSS
+              and JavaScript, featuring custom game logic and player
+              interactions.
+            </p>
+
+            <div class="project-tech-list" aria-label="Technologies used">
+              <span class="project-tech">HTML</span>
+              <span class="project-tech">CSS</span>
+              <span class="project-tech">JavaScript</span>
+            </div>
+
+            <div class="project-actions">
+              <a
+                href="https://sarapaton.com/tic-tac-toe/"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                VIEW LIVE SITE →
+              </a>
+
+              <a href="tic-tac-toe-project.html" class="btn btn-secondary">
+                VIEW PROJECT DETAILS →
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- The Sassy Spaw -->
+        <article
+          class="project-row project-layout-left reveal-from-left"
+          id="capstone-project"
+        >
+          <div class="project-image">
+            <img
+              src="./images/sassy-spaw-project-cover.webp"
+              alt="The Sassy Spaw logo on a cream background"
+              width="1600"
+              height="900"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="project-info">
+            <div class="project-number">
+              <span>05</span>
+              <span class="project-number-line" aria-hidden="true"></span>
+            </div>
+
+            <h2>THE SASSY SPAW</h2>
+            <p class="project-type">
+              BCIT Capstone · WordPress &amp; WooCommerce
+            </p>
+
+            <p class="project-description">
+              A team-built pet grooming website featuring online booking and pet
+              profiles. I contributed custom WordPress content structures, ACF
+              fields and website imagery.
+            </p>
+
+            <div class="project-tech-list" aria-label="Technologies used">
+              <span class="project-tech">WordPress</span>
+              <span class="project-tech">WooCommerce</span>
+              <span class="project-tech">PHP</span>
+              <span class="project-tech">ACF</span>
+              <span class="project-tech">GitHub</span>
+            </div>
+
+            <div class="project-actions">
+              <a
+                href="https://sassyspaw.bcitwebdeveloper.ca/"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                VIEW LIVE SITE →
+              </a>
+
+              <a href="sassy-spaw-project.html" class="btn btn-secondary">
+                VIEW PROJECT DETAILS →
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- Contact CTA -->
+      <section class="projects-cta" id="projects-contact">
+        <div class="projects-cta-overlay" aria-hidden="true"></div>
+
+        <div class="projects-cta-content">
+          <div class="projects-cta-message">
+            <p>“Always building. Always learning.”</p>
+            <span class="projects-cta-line" aria-hidden="true"></span>
+          </div>
+
+          <a href="mailto:paton.sara22@gmail.com" class="btn btn-primary">
+            LET'S WORK TOGETHER →
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <span class="footer-brand-mark">SP</span>
+
+          <div>
+            <p class="footer-name">SARA PATON</p>
+            <p class="footer-title">Front-End Developer</p>
+          </div>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="about.html">About</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <div class="footer-socials">
+          <a
+            href="https://github.com/Sara-Paton"
+            class="social-link"
+            aria-label="GitHub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./images/icons/github-original.svg"
+              alt=""
+              width="28"
+              height="28"
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/sarapaton/"
+            class="social-link"
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./images/icons/linkedin.svg"
+              alt=""
+              width="28"
+              height="28"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-divider" aria-hidden="true"></div>
+      <p class="copyright">© 2026 Sara Paton.</p>
+    </footer>
+
+    <!-- Mobile navigation -->
+    <nav class="mobile-bottom-nav" aria-label="Mobile navigation">
+      <a href="index.html" class="mobile-nav-link">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M3 11.5L12 4l9 7.5M5.5 10v10h13V10M9.5 20v-6h5v6"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <span>Home</span>
+      </a>
+
+      <a
+        href="projects.html"
+        class="mobile-nav-link active"
+        aria-current="page"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M3 7h7l2 2h9v10H3V7Z"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <span>Projects</span>
+      </a>
+
+      <a href="about.html" class="mobile-nav-link">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle
+            cx="12"
+            cy="8"
+            r="4"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          />
+          <path
+            d="M4.5 21c.7-4 3.2-6 7.5-6s6.8 2 7.5 6"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+        <span>About</span>
+      </a>
+
+      <a href="index.html#contact" class="mobile-nav-link">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect
+            x="3"
+            y="5"
+            width="18"
+            height="14"
+            rx="2"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          />
+          <path
+            d="m4 7 8 6 8-6"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <span>Contact</span>
+      </a>
+    </nav>
+
+    <!-- Shopify store modal -->
+    <div
+      class="store-modal"
+      id="shopify-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="store-modal-title"
+      aria-hidden="true"
+    >
+      <div class="store-modal-box">
+        <button
+          type="button"
+          class="store-modal-close"
+          id="close-shopify-modal"
+          aria-label="Close popup"
+        >
+          &times;
+        </button>
+
+        <p class="store-modal-eyebrow">LIVE SHOPIFY STORE</p>
+        <h2 id="store-modal-title">Up North &amp; Cozy</h2>
+
+        <p class="store-modal-description">
+          This store is currently password protected while it is being prepared
+          for launch.
+        </p>
+
+        <p class="store-password-label">STORE PASSWORD</p>
+
+        <div class="store-password-field">
+          <span id="store-password">viewstore</span>
+          <button type="button" id="copy-password-button">COPY</button>
+        </div>
+
+        <a
+          href="https://up-north-and-cozy.myshopify.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="store-continue-btn"
+        >
+          CONTINUE TO STORE →
+        </a>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
